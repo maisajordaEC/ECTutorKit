@@ -12,6 +12,7 @@
 		BB1B837C22A54BED00B41704 /* ECTutorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B837B22A54BED00B41704 /* ECTutorKitTests.swift */; };
 		BB1B837E22A54BED00B41704 /* ECTutorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1B837022A54BEC00B41704 /* ECTutorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB1B838B22A54C5400B41704 /* ECLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B838922A54C5300B41704 /* ECLesson.swift */; };
+		BB1B839722A54EDC00B41704 /* ECLessonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B839622A54EDC00B41704 /* ECLessonType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		BB1B837B22A54BED00B41704 /* ECTutorKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECTutorKitTests.swift; sourceTree = "<group>"; };
 		BB1B837D22A54BED00B41704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1B838922A54C5300B41704 /* ECLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECLesson.swift; sourceTree = "<group>"; };
+		BB1B839622A54EDC00B41704 /* ECLessonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECLessonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				BB1B837022A54BEC00B41704 /* ECTutorKit.h */,
 				BB1B838922A54C5300B41704 /* ECLesson.swift */,
+				BB1B839622A54EDC00B41704 /* ECLessonType.swift */,
 				BB1B837122A54BEC00B41704 /* Info.plist */,
 			);
 			path = ECTutorKit;
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1B838B22A54C5400B41704 /* ECLesson.swift in Sources */,
+				BB1B839722A54EDC00B41704 /* ECLessonType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
