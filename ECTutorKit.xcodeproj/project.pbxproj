@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41827823002C5A1D0710FA42 /* Pods_ECTutorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476F7A5CB806151CE0C72866 /* Pods_ECTutorKit.framework */; };
+		8BB061C14C4048F70049DA9A /* Pods_ECTutorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928D358C5EAC3ED8916231F9 /* Pods_ECTutorKit.framework */; };
 		BB1B837722A54BED00B41704 /* ECTutorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1B836D22A54BEC00B41704 /* ECTutorKit.framework */; };
 		BB1B837C22A54BED00B41704 /* ECTutorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B837B22A54BED00B41704 /* ECTutorKitTests.swift */; };
 		BB1B837E22A54BED00B41704 /* ECTutorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1B837022A54BEC00B41704 /* ECTutorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,9 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		476F7A5CB806151CE0C72866 /* Pods_ECTutorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECTutorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BD8BF4858A071DF5846DBD2 /* Pods-ECTutorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECTutorKit.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-ECTutorKit/Pods-ECTutorKit.debug.xcconfig"; sourceTree = "<group>"; };
-		ADB7DE06123AD4533E438427 /* Pods-ECTutorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECTutorKit.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-ECTutorKit/Pods-ECTutorKit.release.xcconfig"; sourceTree = "<group>"; };
+		663B6CAE37D9947507CB5465 /* Pods-ECTutorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECTutorKit.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-ECTutorKit/Pods-ECTutorKit.debug.xcconfig"; sourceTree = "<group>"; };
+		928D358C5EAC3ED8916231F9 /* Pods_ECTutorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECTutorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1B836D22A54BEC00B41704 /* ECTutorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECTutorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1B837022A54BEC00B41704 /* ECTutorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTutorKit.h; sourceTree = "<group>"; };
 		BB1B837122A54BEC00B41704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		BB1B837D22A54BED00B41704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1B838922A54C5300B41704 /* ECLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECLesson.swift; sourceTree = "<group>"; };
 		BB1B839622A54EDC00B41704 /* ECLessonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECLessonType.swift; sourceTree = "<group>"; };
+		D20CF29AD5F62330293A0D11 /* Pods-ECTutorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECTutorKit.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-ECTutorKit/Pods-ECTutorKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41827823002C5A1D0710FA42 /* Pods_ECTutorKit.framework in Frameworks */,
+				8BB061C14C4048F70049DA9A /* Pods_ECTutorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,14 +59,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A266FCEF52FE9D8BBCB1754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				928D358C5EAC3ED8916231F9 /* Pods_ECTutorKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C05B65DC89951B1FCAF4E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663B6CAE37D9947507CB5465 /* Pods-ECTutorKit.debug.xcconfig */,
+				D20CF29AD5F62330293A0D11 /* Pods-ECTutorKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB1B836322A54BEC00B41704 = {
 			isa = PBXGroup;
 			children = (
 				BB1B836F22A54BEC00B41704 /* ECTutorKit */,
 				BB1B837A22A54BED00B41704 /* ECTutorKitTests */,
 				BB1B836E22A54BEC00B41704 /* Products */,
-				CA74876BE5EE381B04FFD038 /* Pods */,
-				D460A0C5E45444BA70EA4792 /* Frameworks */,
+				9C05B65DC89951B1FCAF4E61 /* Pods */,
+				6A266FCEF52FE9D8BBCB1754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,23 +116,6 @@
 			path = ECTutorKitTests;
 			sourceTree = "<group>";
 		};
-		CA74876BE5EE381B04FFD038 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9BD8BF4858A071DF5846DBD2 /* Pods-ECTutorKit.debug.xcconfig */,
-				ADB7DE06123AD4533E438427 /* Pods-ECTutorKit.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D460A0C5E45444BA70EA4792 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				476F7A5CB806151CE0C72866 /* Pods_ECTutorKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,7 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB1B838122A54BED00B41704 /* Build configuration list for PBXNativeTarget "ECTutorKit" */;
 			buildPhases = (
-				62BAC53FCC736EDBD54E8692 /* [CP] Check Pods Manifest.lock */,
+				8352BD6C9221499CDDE2ED69 /* [CP] Check Pods Manifest.lock */,
 				BB1B836822A54BEC00B41704 /* Headers */,
 				BB1B836922A54BEC00B41704 /* Sources */,
 				BB1B836A22A54BEC00B41704 /* Frameworks */,
@@ -222,7 +222,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		62BAC53FCC736EDBD54E8692 /* [CP] Check Pods Manifest.lock */ = {
+		8352BD6C9221499CDDE2ED69 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,7 +399,7 @@
 		};
 		BB1B838222A54BED00B41704 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BD8BF4858A071DF5846DBD2 /* Pods-ECTutorKit.debug.xcconfig */;
+			baseConfigurationReference = 663B6CAE37D9947507CB5465 /* Pods-ECTutorKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -428,7 +428,7 @@
 		};
 		BB1B838322A54BED00B41704 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADB7DE06123AD4533E438427 /* Pods-ECTutorKit.release.xcconfig */;
+			baseConfigurationReference = D20CF29AD5F62330293A0D11 /* Pods-ECTutorKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

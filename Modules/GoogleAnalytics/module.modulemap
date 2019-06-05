@@ -1,4 +1,4 @@
 module GoogleAnalytics {
-  header "../../../Pods/GoogleAnalytics/Sources/GAI.h"
+  header "../../../../Pods/GoogleAnalytics/Sources/GAI.h"
   export *
 }
