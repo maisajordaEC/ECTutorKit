@@ -8,6 +8,7 @@ target 'ECCoreKit' do
   # Pods for ECCoreKit
   pod 'NewRelicAgent', '6.5.0'
   pod 'MBProgressHUD', '1.0.0'
+  pod 'GoogleAnalytics'
 
   target 'ECCoreKitTests' do
     inherit! :search_paths
